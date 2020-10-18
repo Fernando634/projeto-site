@@ -1,0 +1,178 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: 'Lancelot', cursive; helvetica;
+}
+
+.top_contato {
+
+	height: 30px;
+	background-color:#000;
+	color: #b9c4d1;
+	display: flex;
+	justify-content: center;
+}
+
+.top_contato_int {
+
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.social {
+
+	width: 300px;
+	height: 100%;
+
+}
+
+.icons {
+
+	width: 30px;
+	height: 95%;
+	float: right;
+	margin-left: 5px;
+}
+
+.header {
+
+	height: 100px;
+	width: 100%;
+	background-color: #b9c4d1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.header_int {
+
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.header_int_left {
+
+	width: 200px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	color: #463b2e;
+}
+
+.header_int_right {
+
+	flex: 1;
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+
+
+}
+
+.header_int ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.header_int li {
+
+	float: left;
+	margin-right: 5px;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #463b2e;
+	height: 100%;
+	
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border-radius: 2px;
+	
+
+}
+
+.header_int_icons {
+
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+	
+}
+
+.header_int li:hover {
+
+	background-color:#463b2e;
+	color: #b9c4d1;
+}
+
+#footer {
+
+	min-height: 100px;
+	margin-top: 200px;
+	background-color: #b9c4d1;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.footer_int {
+
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	
+	font-size: 14px;
+	font-weight: bold;
+	color: #463b2e;
+}
+
+.footer_box {
+
+	flex:1;
+	margin: 3px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_block {
+
+	margin-bottom: 30px;
+}
+
+.footer_block a {
+
+	font-size: 20px;
+	text-decoration: none;
+	color: #000;
+}
+
+.footer_icon {
+
+	float: left;
+	margin-right: 10px;
+}
